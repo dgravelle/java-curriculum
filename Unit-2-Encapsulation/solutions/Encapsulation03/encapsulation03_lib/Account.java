@@ -16,7 +16,7 @@ public class Account {
     this.index++;
   }
   public void withdraw(int amount) {
-    this.transactions[index] = amount;
+    this.transactions[index] = amount * -1;
     this.index++;
   }
 }
