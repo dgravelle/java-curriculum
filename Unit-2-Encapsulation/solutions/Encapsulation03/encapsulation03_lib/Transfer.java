@@ -11,6 +11,6 @@ public class Transfer {
 
   public void transfer(int amount) {
     sourceAccount.withdraw(amount);
-    destinationAccount.withdraw(amount);
+    destinationAccount.deposit(amount);
   }
 }
