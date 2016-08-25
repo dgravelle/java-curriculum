@@ -11,7 +11,7 @@ class Encapsulation03 {
     destinationAccount.deposit(750);
 
     Transfer t = new Transfer(sourceAccount, destinationAccount);
-    t.transfer(-250);
+    t.transfer(250);
 
     System.out.println(sourceAccount.balance());
     System.out.println(destinationAccount.balance());
