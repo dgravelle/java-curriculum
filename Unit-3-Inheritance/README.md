@@ -261,7 +261,7 @@ class Order {
 class SpecialOrder extends Order {
   SpecialOrder(int amount) {
     super(amount); // call the superclass constructor
-    System.out.println("From Order");
+    System.out.println("From Special Order");
   }
 }
 SpecialOrder order = new SpecialOrder(2);
