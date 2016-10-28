@@ -13,14 +13,16 @@ We'll use Java Standard Edition (Java SE) which is the core functionality of the
 
 Later, we'll use Gradle which is a build tool for compiling Java applications and loading any necessary dependencies. You can think of it like NPM and Gulp.js rolled into one.
 
-## Setting Up a Java Development Environment
+## Getting Started
+
+Setting Up a Java Development Environment:
 
 1. Install [Java8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
-Under "Java SE Development Kit 8u102", click the link beside Mac OS X 64 to download the correct package.
-To confirm, run `java -version`. The computer should display `java version "1.8.0_XX"`.
-1. Install [Gradle](http://www.gradle.org/) using `brew update` then `brew install gradle`.
+Under "Java SE Development Kit 8u112", click the link beside Mac OS X to download the correct package.
+To confirm, run `java -version`. The computer should display `java version "1.8.0_112"`.
+1. Install [Gradle](http://www.gradle.org/) using `brew update && brew doctor` then `brew install gradle`.
 To confirm, run `gradle -version`. The computer should display `Gradle 2.XX`.
-1. [optional] It's also recommended to add a Java linter for pre-compile error checking in your editor. A good one for atom is 'linter-javac' which will check for errors when java files are saved.
+1. [optional] It's also recommended to add a Java linter for pre-compile error checking in your editor. A good one for atom is '[linter-javac](https://atom.io/packages/linter-javac)' which will check for errors when java files are saved.
 
 ## Progression
 
@@ -31,7 +33,7 @@ To confirm, run `gradle -version`. The computer should display `Gradle 2.XX`.
 - [Unit 5 - JUnit and Gradle](./Unit-5-junit)
 - [Project - Electronic Life](https://github.com/gSchool/java_electronic_life)
 
+## References
 
-### References
 - [The Java Programming Language Platforms](http://docs.oracle.com/javaee/6/firstcup/doc/gkhoy.html)
 - [Getting Started with Gradle](http://gradle.org/getting-started-gradle-java/)
