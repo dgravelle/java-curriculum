@@ -280,7 +280,7 @@ JavaScript makes variable declarations fairly straightforward:
 var myVar = 'JavaScript variables are easy!';
 ```
 
-Instead of using **var** or **let**, in Java we put what **type** we would like to use,
+Instead of using **var** or **let** or **const**, in Java we put what **type** we would like to use,
 
 ```java
 //filename: Ops.java
@@ -321,10 +321,10 @@ When we declare a variable inside a method these are known as **local variables*
  - **Hint:** `i` seems like a local variable.
 
 ```javascript
-function power(x){
+function power(x) {
   var y = 2;
-  for(var i = 0; i < y; i++){
-      x = x * x;
+  for(var i = 0; i < y; i++) {
+    x = x * x;
   }
   return x;
 }
