@@ -149,7 +149,7 @@ var resultOne = add(1, 2) // => 3
 var resultTwo = add('hello', 'world') // => helloworld
 ```
 
-Java is **statically typed**, meaning you need to explicitly specify the _type_s of the following:
+Java is **statically typed**, meaning you need to explicitly specify the _types_ of the following:
 
 - variables
 - parameters of methods
